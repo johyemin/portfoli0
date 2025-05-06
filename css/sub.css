@@ -1131,6 +1131,20 @@
   .com_gallery_wrap .project_list > li:nth-child(even) {
     padding-left: 0.5em;
   }
+
+  .com_gallery_wrap .project_list li .desc_wrap .brand .txt {
+    word-break: keep-all;
+  }
+  .com_gallery_wrap .project_list li .desc_wrap .brand .txt br {
+    display: none;
+  }
+
+  .com_gallery_wrap .project_list li .desc_wrap .event_info {
+    min-height: 7rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* detail */

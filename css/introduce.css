@@ -845,6 +845,10 @@ header .header_bar .inner .ham span {
   color: var(--point-blue-4);
 }
 
+.item_cont {
+  line-height: 1.5;
+}
+
 .resume_btn {
   border: 1px solid #102b48;
   background-color: transparent;
@@ -910,7 +914,12 @@ header .header_bar .inner .ham span {
   #profile_tit,
   #intro_tit {
     font-size: 1.5em;
-    margin-top: 3em;
+    margin-top: 4em;
+    padding-inline: 0.94em;
+  }
+
+  #intro_tit {
+    margin-top: 1.25rem;
   }
 
   .profile_flex_cont {
@@ -972,6 +981,7 @@ header .header_bar .inner .ham span {
 
   .study_box .study_info p {
     text-align: left;
+    font-size: 14px;
   }
 
   .certi_info_wrap {
@@ -1015,6 +1025,18 @@ header .header_bar .inner .ham span {
 
   .accordion_cont .accordion_head .resume_tit {
     font-size: 1.15em;
+  }
+
+  .accordion_cont .accordion_body .content .txt br {
+    display: none;
+  }
+
+  .item_cont {
+    line-height: 1.8;
+  }
+
+  .score_tit {
+    padding-left: 0;
   }
 }
 
